@@ -1,0 +1,125 @@
+/***BASE STYLES***/
+
+body {
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***GRID***/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***HEADER***/
+
+header {
+    text-transform: uppercase;
+
+}
+header h1 {
+    font-size: 30px;
+}
+header span {
+    color:#77a466;
+}
+nav {
+    color: #77a466;
+    font-size: 14px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+header img {
+    border: 3px solid #77a466;
+    box-sizing: border-box;
+    width: 1200px;
+}
+
+/***INTRO SECTION***/
+
+#intro {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+#intro h2 {
+    color: #77a466;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#intro p {
+    font-size: 16px;
+}
+
+/***ABOUT US***/
+
+#specials {
+    border: 1px solid #dedbdc;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+}
+#specials h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#specials p {
+    color: #77a466;
+    font-size: 16px;
+}
+#reviews {
+    border: 1px solid #dedbdc;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px 15px 7px 15px;
+}
+#reviews h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#reviews p {
+    font-size: 16px;
+}
+#contact {
+    border: 1px solid #dedbdc;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px;
+}
+#contact h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#contact p {
+    font-size: 16px;
+}
+
+/***FOOTER***/
+
+footer {
+
+}  
+footer h2 {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
